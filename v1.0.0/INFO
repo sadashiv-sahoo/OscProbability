@@ -1,0 +1,16 @@
+	///////////////////////////////////////
+	//                                   //
+	// Energy in (GeV)                   //
+	// Baseline in (KM)                  //
+	// Matter Density in (g/cc)          // 
+	// Mixing Angles in (degree)         //
+	// Mass Sq. Differences in (eV^2)    //
+	//                                   //
+	// For Electron Flavour Neutrino; 0  //
+	// For Muon     Flavour Neutrino; 1  //
+	// For Tauon    Flavour Neutrino; 2  //
+	//                                   //
+	// For Neutrino      Type;       +1  //
+	// For Anti-Neutrino Type;       -1  //
+	//                                   //
+	///////////////////////////////////////
