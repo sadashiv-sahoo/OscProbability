@@ -1,7 +1,7 @@
 
 ## Standard Oscillation Examples
 
-# How to Use :
+## How to Use :
 1. cd v1.0.0/
 2. cd PREM/
 3. chmod +x PREM.sh
@@ -22,25 +22,25 @@
     cmake -DSET_TARGET=Test$ ../../v1.0.0   (if step 5 to 9 skipped)
 
 (Assuming all 9 steps are followed)
-# Test1
+## Test1
   Vacuum Oscillation !!!
   cmake -DSET_TARGET=Test1 $Oscv1
   make -jN
   ./Test1
 
-# Test2
+## Test2
   Constant density Matter Oscillation !!!
   cmake -DSET_TARGET=Test2 $Oscv1
   make -jN
   ./Test2
 
-# Test3
+## Test3
   Profiled density(DUNE) Matter Oscillation !!!
   cmake -DSET_TARGET=Test3 $Oscv1
   make -jN
   ./Test3
 
-# Test4
+## Test4
   Earth Profiled density (484 Layers) Matter Oscillation !!!
   cmake -DSET_TARGET=Test4 $Oscv1
   make -jN
