@@ -10,7 +10,6 @@
   #include <new>
   #include <fstream>
   #include <iomanip>
-  #include <progress.h>
   #include <bits/stdc++.h>
   #include <OscProbability.h>
 
