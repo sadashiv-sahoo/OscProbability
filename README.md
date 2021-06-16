@@ -21,13 +21,14 @@ Terms of Use:
 How to Use :
 
 Pre-Requisites:
-1. EIGEN3-3.3.7v
-2. GSL-2.4v
-3. BLAS
-4. LAPACK
-5. ATLAS
-6. OPENMP
-7. ROOT-6.18v [optional]
+
+1. <A href="https://eigen.tuxfamily.org/index.php?title=Main_Page">EIGEN-3.3.7v </A>
+2. <A href="https://www.gnu.org/software/gsl/">GSL-2.4v</A>
+3. <A href="http://www.netlib.org/blas/">BLAS</A>
+4. <A href="http://www.netlib.org/lapack/">LAPACK</A>
+5. <A href="https://www.netlib.org/atlas/">ATLAS</A>
+6. <A href="https://www.openmp.org/">OPENMP</A>
+7. <A href="https://root.cern/">ROOT-6.18v</A> [optional]
 
 Ref-Demo:
    Go to examples(dir)
