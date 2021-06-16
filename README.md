@@ -1,18 +1,18 @@
 # OscProbability
 ## v1.0.0 (Three Flavour Neutrino Oscillations)
 
-About:
+**About:**
 
   This is an entry-level, Fully-Matrix-Method based Three Flavour Neutrino Oscillation, C++ Code.
   The Code is User-Friendly and easy to Understand.
 
-Declaration:
+**Declaration:**
 
   This is a part of individual R&D for India Based Neutrino Observatory (INO), Homi Bhabha National Institute (HBNI), Mumbai, India.
   INO, HBNI is(are) not responsible for any kind of malfunctions of this code, user(s) may contact developer.
   To know more about INO, please visit http://www.ino.tifr.res.in/ino/ 
 
-Terms of Use:
+**Terms of Use:**
 
   This is an Open Source, and Free to Use.
   If used for research publication(s), please acknowledge ....
@@ -31,7 +31,7 @@ Pre-Requisites:
 7. <A href="https://root.cern/">ROOT-6.18v</A> [optional]
 
 Ref-Demo:
-   Go to examples(dir)
+   Go to <A href="https://github.com/sadashiv-sahoo/OscProbability/tree/master/examples">examples(dir)</A>
    explore individual Test$(dir)
 
 
