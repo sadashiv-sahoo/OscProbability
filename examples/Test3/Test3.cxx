@@ -10,7 +10,6 @@
   #include <new>
   #include <fstream>
   #include <iomanip>
-  #include <progress.h>
   #include <OscProbability.h>
 
   using namespace std;
