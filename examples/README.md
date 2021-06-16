@@ -1,7 +1,7 @@
 
 ## Standard Oscillation Examples
+**How to Use :**
 <pre>
-How to Use :
 1. cd v1.0.0/
 2. cd PREM/
 3. chmod +x PREM.sh
