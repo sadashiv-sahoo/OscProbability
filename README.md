@@ -29,6 +29,7 @@ Pre-Requisites:
 5. <A href="https://www.netlib.org/atlas/">ATLAS</A>
 6. <A href="https://www.openmp.org/">OPENMP</A>
 7. <A href="https://root.cern/">ROOT-6.18v</A> [optional]
+8. <A href="https://cmake.org/">CMake-3.20v</A>
 
 Ref-Demo:
    Go to <A href="https://github.com/sadashiv-sahoo/OscProbability/tree/master/examples">examples(dir)</A>
