@@ -15,7 +15,7 @@
 **Terms of Use:**
 
   This is an Open Source, and Free to Use.
-  If used for research publication(s), please acknowledge ....
+  If used for research publication(s), please acknowledge it ....
 
 <pre>
 How to Use :
