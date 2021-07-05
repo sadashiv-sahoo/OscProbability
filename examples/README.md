@@ -20,6 +20,10 @@
 11. cmake -DSET_TARGET=Test$ $Oscv1        (if step 5 to 9 followed)
     cmake -DSET_TARGET=Test$ -DROOTSYS=ON $Oscv1 (if one uses ROOT6)
     cmake -DSET_TARGET=Test$ ../../v1.0.0   (if step 5 to 9 skipped)
+(If multiple Eigen3 or GSL are installed, add the following <A href="https://cmake.org/cmake/help/v3.21/manual/cmake.1.html">-D</A> variables)       
+          -DEIGEN_INCLUDE_DIR=$(path-to-eigen3-include-dir)
+          -DGSL_ROOT_DIR=$(GSL-install-dir)
+          -DGSL_CONFIG_EXECUTABLE=$(path-to-"gsl-config")
 
 (Assuming all 9 steps are followed)
 Test1
