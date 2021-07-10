@@ -34,18 +34,24 @@ message("\n${G}:: Current PREM Information ::${N}")
 message("\n${C}${PREM}${N}")
 
 #Include Eigen3:
-set(Eigen3_DIR ${CMAKE_EIGEN3_DIR})
 find_package (Eigen3 3.3.7 REQUIRED NO_MODULE)
 if (Eigen3_FOUND)
-    set (eigen3_inc ${EIGEN_INCLUDE_DIR})
+    set (eigen3_inc "${EIGEN_INCLUDE_DIR}")
+if (eigen3_inc)
+message (STATUS "Found Eigen3: ${eigen3_inc}")
+else()
+message (FATAL_ERROR "${Y}\n EIGEN3 is ${R}NOT${Y} set, Try with \n-DEIGEN_INCLUDE_DIR=\$(path-to-'${P}eigen3-include-dir${Y}') ${N}\n")
+endif(eigen3_inc)
 endif(Eigen3_FOUND)
 
 #Include GSL:
-find_package(GSL 2.4 REQUIRED)
+find_package(GSL 2.4)
 if (GSL_FOUND)
     set (gsl_inc   ${GSL_INCLUDE_DIRS} ${GSLCBLAS_INCLUDE_DIRS})
     set (gsl_flags ${GSL_CONFIG_EXECUTABLE})
     set (gsl_libs  ${GSL_LIBRARIES} ${GSL_CBLAS_LIBRARY})
+else ()
+message (FATAL_ERROR "${Y}\n GSL is ${R}NOT${Y} set, Try with \n-DGSL_ROOT_DIR=\$(path-to-'${P}install-dir${Y}') ${N}\n")
 endif(GSL_FOUND)
 
 #Include OpenMP:
@@ -71,7 +77,7 @@ if (LAPACK_FOUND)
 endif(LAPACK_FOUND)
 
 #Include ATLAS:
-find_library(LIB_ATLAS NAMES   atlas )
+find_library(LIB_ATLAS NAMES atlas)
 set(Checklib LIB_ATLAS)
 include(FindPackageHandleStandardArgs)
 find_package_handle_standard_args(Atlas DEFAULT_MSG ${Checklib})
@@ -111,8 +117,6 @@ set (Target ${SET_TARGET})
 set (extn ".cxx")
 add_executable(${Target} ${Target}${extn} ${hdrs})
 target_link_libraries(${Target} PRIVATE ${lib} ${libs})
-
-
 
 
 
