@@ -40,7 +40,7 @@ set (eigen3_inc "${EIGEN_INCLUDE_DIR}")
 if (eigen3_inc)
 message (STATUS "Found Eigen3: ${eigen3_inc}")
 else()
-message (WARNING "${Y}\n If '${R}fatal error:${Y} eigen3/Eigen/Core: No such file or directory' shows, Try with \n-DEIGEN_INCLUDE_DIR=\$(path-to-'${P}eigen3-include-dir${Y}') ${N}\n")
+message (WARNING "${Y}\n If '${R}fatal error:${Y} eigen3/Eigen/Core: No such file or directory' shows, then, Try with \n-DEIGEN_INCLUDE_DIR=\$(path-to-'${P}eigen3-include-dir${Y}') ${N}\n")
 endif(eigen3_inc)
 endif(Eigen3_FOUND)
 
