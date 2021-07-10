@@ -23,7 +23,7 @@
 (If multiple Eigen3 or GSL are installed, add the following <A href="https://cmake.org/cmake/help/v3.21/manual/cmake.1.html">-D</A> variables)       
           -DEIGEN_INCLUDE_DIR=$(path-to-eigen3-include-dir)
           -DGSL_ROOT_DIR=$(GSL-install-dir)
-          -DGSL_CONFIG_EXECUTABLE=$(path-to-"gsl-config")
+          -DGSL_CONFIG_EXECUTABLE=$(path-to-"gsl-config") [optional]
 
 (Assuming all 9 steps are followed)
 Test1
