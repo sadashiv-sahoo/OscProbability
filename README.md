@@ -1,16 +1,16 @@
 # OscProbability
-## v1.0.0 (Three Flavour Neutrino Oscillations)
+## v3.0.0 (Multi Flavour Neutrino Oscillations)
 
 **About:**
 
-  This is an entry-level, Fully-Matrix-Method based Three Flavour Neutrino Oscillation, C++ Code.
+  This is an entry-level, Fully-Matrix-Method based Multi Flavour Neutrino Oscillation, C++ Code.
   The Code is User-Friendly and easy to Understand.
 
 **Declaration:**
 
-  This is a part of individual R&D for India Based Neutrino Observatory (INO), Homi Bhabha National Institute (HBNI), Mumbai, India.
-  INO, HBNI is(are) not responsible for any kind of malfunctions of this code, user(s) may contact developer.
-  To know more about INO, please visit http://www.ino.tifr.res.in/ino/ 
+  This is a part of R&D for India Based Neutrino Observatory (INO), Homi Bhabha National Institute (HBNI), Mumbai, India, at individual capacity.
+  INO, HBNI is not responsible for any kind of malfunctions of this package. User may or should contact developer.
+  To know more about INO, please visit http://www.ino.tifr.res.in/ino/
 
 **Terms of Use:**
 
