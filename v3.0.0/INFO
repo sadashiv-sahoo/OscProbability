@@ -9,7 +9,8 @@
 	// Mixing Angles in (degree)         //
 	// CP Phase(s) in (degree)           //
 	// Mass Sq. Differences in (eV^2)    //
-	//                                   //
+	// Dimension must be >= 2            //
+        //                                   //
 	// For Electron Neutrino   :       e //
 	// For Muon     Neutrino   :      mu //
 	// For Tauon    Neutrino   :     tau //
