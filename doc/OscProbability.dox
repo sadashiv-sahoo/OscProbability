@@ -1,0 +1,24 @@
+/**
+*
+* @mainpage OscProbability 
+* v3.0.0 <hr/>
+*
+* The OscProbability is a full matrix based numerical calculator for getting oscillation probabilities of the multi-flavour neutrino mixing paragism. <br>
+* This follows limited sign and conventions, and flexible to the user's Physics Interpretations. This version deals the interactions between neutrinos and matter fermions, and many new physics scenarios. <br>
+* This is developed keeping the User's convenience. One should realise, this wonderful phenomena of mass-induced neutrino flavour oscillations clearly brings the idea that how firmly the quantum mechanics
+* works, even in so called macro scale. This oscillation phenomena acts as an eye-opener to many dimensions of physics. Now-a-days, this act as a potential tool to probe various new physics phenomena.<br>
+* By the way, this mass-induced neutrino oscillation, it self lies on the catagory of beyond the Standard Model (BSM) physics scenarios. <br>
+* Here, we are going to see what are the classes, functions, ... etc are used in this program. The Caller-Graph Diagrams shows a clear pictures of each call by the functions. <br>
+*
+* Hope, this small documentation will help you! <br>
+*
+* To know more about current status in the neutrino oscillation sector, 
+* please check this <a href="https://pdg.lbl.gov/2021/reviews/contents_sports.html"> Neutrino Masses, Mixing, and Oscillations </a> chapter in PDG. <br>
+*
+* @author
+*
+* SADASHIV SAHOO <br>
+* India-based Neutrino Observatory <br>
+* Homi Bhabha National Institute, Mumbai, INDIA
+*
+*/
