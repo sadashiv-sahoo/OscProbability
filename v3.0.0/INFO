@@ -1,0 +1,20 @@
+	///////////////////////////////////////
+	//                                   //
+	//    Default Signs & Conventions    //
+	//   =============================   //
+	//                                   //
+	// Energy in (GeV)                   //
+	// Baseline in (KM)                  //
+	// Matter Density in (g/cc)          // 
+	// Mixing Angles in (degree)         //
+	// CP Phase(s) in (degree)           //
+	// Mass Sq. Differences in (eV^2)    //
+	//                                   //
+	// For Electron Neutrino   :       e //
+	// For Muon     Neutrino   :      mu //
+	// For Tauon    Neutrino   :     tau //
+	//                                   //
+	// For Neutrino      Type  :     +1  //
+	// For Anti-Neutrino Type  :     -1  //
+	//                                   //
+	///////////////////////////////////////
