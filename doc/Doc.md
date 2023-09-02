@@ -1,4 +1,6 @@
-## Proper Document will be uploaded soon !!!
+## A proper documentation will be uploaded soon !!!
 
-# Please check "README" at examples
-# For any help/suggestion/comments, please feel free to contact Devloper
+## Open "index.html" file in your browser, that kept inside "html" directory  
+
+## Please check "README" at examples
+## For any help/suggestion/comments, please feel free to contact Devloper
