@@ -1,4 +1,4 @@
-# OscProbability <img align="left" src="https://github.com/sadashiv-sahoo/OscProbability/blob/main/doc/Logo.png" width="120" height="115">
+# OscProbability <img align="right" src="https://github.com/sadashiv-sahoo/OscProbability/blob/main/doc/Logo.png" width="260" height="248.5">
 ## v3.0.0 (Multi Flavour Neutrino Oscillations)
 
 **About:**
