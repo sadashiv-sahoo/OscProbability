@@ -4,6 +4,8 @@ It generates the "OscEarthPREMProfle.cxx" in "src" directory.
 
 The PREM Profile Should Contain Increasing Order Of Layer-Radius!!!
 
+<img src="https://github.com/sadashiv-sahoo/OscProbability/blob/main/v3.0.0/PREM/earth_prem_demo.png" width="1018" height="535"/>
+
 Layer Radii Must be in KM Unit, and Densities Must be in g/cc Unit
 
 <pre>
